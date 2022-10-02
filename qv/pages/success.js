@@ -1,6 +1,6 @@
 import Link from "next/link"; // Dynamic links
-import Layout from "components/layout"; // Layout wrapper
-import Navigation from "components/navigation"; // Navigation component
+import Layout from "../components/layout"; // Layout wrapper
+import Navigation from "../components/navigation"; // Navigation component
 
 function Success({ query }) {
   return (

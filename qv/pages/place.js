@@ -1,10 +1,10 @@
 import axios from "axios"; // Axios for requests
 import { useState, useEffect } from "react"; // State management
-import Layout from "components/layout"; // Layout wrapper
-import Loader from "components/loader"; // Loader
+import Layout from "../components/layout"; // Layout wrapper
+import Loader from "../components/loader"; // Loader
 import { useRouter } from "next/router"; // Router for page change
 import Countdown from "react-countdown"; // Countdown timer
-import Navigation from "components/navigation"; // Navigation component
+import Navigation from "../components/navigation"; // Navigation component
 
 function Place({ query }) {
   const router = useRouter(); // Setup router instance
